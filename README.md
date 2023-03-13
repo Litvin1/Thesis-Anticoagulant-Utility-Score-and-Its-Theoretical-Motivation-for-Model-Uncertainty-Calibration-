@@ -5,7 +5,7 @@ Pages 10–18: Methods. Python language and libreries, Anti-Coagulant Utility (A
 Pages 19–25: Results. predicting VTE with new weights for Padua variables, predicting VTE with new variables, predicting major bleeding, confidence intervals for ACU between different populations.<br />
 Pages 26–28: Discussion<br />
 Pages 29–32: Bibliography<br />
-Pages 33-37: Appendix A. Proof for the claim: if both models for predicting VTE and major bleeding are perfectly calibrated, then the conditional expectation of the ACU is higher for the population of patients who had a VTE event than the major bleeding population.<br />
-Pages 34-38: Appendix B. Proof for the claim: if both models for predicting VTE and major bleeding are perfectly calibrated, then the average ACU of a final size sample of patients who had a VTE event is higher than the average ACU of the major bleeding final sample.<br />
+Pages 33–37: Appendix A. Proof for the claim: if both models for predicting VTE and major bleeding are perfectly calibrated, then the conditional expectation of the ACU is higher for the population of patients who had a VTE event than the major bleeding population.<br />
+Pages 34–38: Appendix B. Proof for the claim: if both models for predicting VTE and major bleeding are perfectly calibrated, then the average ACU of a final size sample of patients who had a VTE event is higher than the average ACU of the major bleeding final sample.<br />
 
 Thank you
