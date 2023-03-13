@@ -1,0 +1,2 @@
+# Thesis-Anticoagulant-Utility-Score-and-Its-Theoretical-Motivation-for-Model-Uncertainty-Calibration-
+Introducing the Anti-Coagulant Utility (ACU) score, which is composed of two models, one for predicting Venous Thrombo-Embolism (VTE) and the other for predicting major bleeding. The models were learned using medical data. An attempt was made to lay the theoretical foundations for the use of well-calibrated models for the ACU.
