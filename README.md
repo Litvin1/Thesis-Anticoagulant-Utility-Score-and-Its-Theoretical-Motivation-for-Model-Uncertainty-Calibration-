@@ -7,5 +7,3 @@ Pages 26–28: Discussion<br />
 Pages 29–32: Bibliography<br />
 Pages 33–37: Appendix A. Proof for the claim: if both models for predicting VTE and major bleeding are perfectly calibrated, then the conditional expectation of the ACU is higher for the population of patients who had a VTE event than the major bleeding population.<br />
 Pages 34–38: Appendix B. Proof for the claim: if both models for predicting VTE and major bleeding are perfectly calibrated, then the average ACU of a final size sample of patients who had a VTE event is higher than the average ACU of the major bleeding final sample.<br />
-
-Thank you
