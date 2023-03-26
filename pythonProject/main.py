@@ -17,6 +17,12 @@ LABEL = 'vt'
 PADUA_FLAG = 1
 
 if __name__ == '__main__':
+    # only the subset of the ones who had padua score from the new set
+    vte_old, vte_new = beilinsonLoadPreprocess.loadPreprocess(padua_related_flag=0)
+    # print(vte_new['vt'].value_counts())
+    beilinsonLoadPreprocess.createPaudaPred(vte_new)
+    classifier.trainValidationTestLR(vte_old, vte_new)
+    # classifier.logisticRegression(vte_new, LABEL)
     '''
     # load create
     no_normalization, min_max, standartized = loadAndPreprocess.loadProcessedData()
@@ -96,12 +102,6 @@ if __name__ == '__main__':
     #classifier.twoVarPadua(vte_old)
     classifier.logisticRegression(vte_old, LABEL)
     '''
-    # only the subset of the ones who had padua score from the new set
-    vte_old, vte_new = beilinsonLoadPreprocess.loadPreprocess(padua_related_flag=0)
-    # print(vte_new['vt'].value_counts())
-    beilinsonLoadPreprocess.createPaudaPred(vte_new)
-    classifier.trainValidationTestLR(vte_old, vte_new)
-    # classifier.logisticRegression(vte_new, LABEL)
 
     '''
     # work with beilinson old + FULL PADUA VARIABLES beilinson new only vte prediction
