@@ -7,7 +7,7 @@ In this work, we tried to build a venous thromboembolism (VTE) prediction tool t
 ![image](https://user-images.githubusercontent.com/59581554/232444132-e39e00f7-2b34-4bf8-8c01-11304523b8bb.png)<br />
 The x axis is the ACU score, the y axis is the fold number, and the different plots are from different K-fold cross validation (5, 4, 3, 2). The colors blue, red and green represent the VTE, Bleeding, and Neither populations respectively. <br />
 For choosing the algorithm to build the submodels that construct the ACU, we tried to give a theoretical motivation for choosing algorithms that will produce models with good uncertainty calibration. The proofs are in appendices A and B.<br />
-<br />
+The PDF file: <br />
 Pages 1–9: introduction. biological background: What is Venous Thrombo-Embolism (VTE)? What is the Padua score? What is major bleeding? Algorithmic background: what is machine learning? What is risk and Empirical Risk Minimization (ERM)? How does Hoeffding's inequality help us? describing the datasets.<br />
 Pages 10–18: Methods. Python language and libreries, Anti-Coagulant Utility (ACU) score definition, feature selection, missing values, performance evaluation; Statistical tests: paired sample t-test, TOST (two one-sided t-tests) equivalence test, confidence intervals for a population mean, model uncertainty calibration, theoretical claims, algorithm<br />
 Pages 19–25: Results. predicting VTE with new weights for Padua variables, predicting VTE with new variables, predicting major bleeding, confidence intervals for ACU between different populations.<br />
