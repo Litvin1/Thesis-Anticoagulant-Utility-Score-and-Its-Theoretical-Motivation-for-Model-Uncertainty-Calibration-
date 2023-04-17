@@ -1,6 +1,5 @@
 # Thesis-Anticoagulant-Utility-Score-and-Its-Theoretical-Motivation-for-Model-Uncertainty-Calibration-
 In this thesis, we tried to build a venous thromboembolism (VTE) prediction tool that was better than the Pauda score, which is used now in all hospitals in the state. We outperformed the Pauda score and showed statistical significance to those results. Later on, we tried to address the problem of major bleeding that can occur after treatment with anticoagulants for preventing VTE. To solve this, we defined the Anti-Coagulant Utility (ACU) score. To show the statistical power of ACU, we used confidence intervals for a population mean.
-![alt text]([http://url/to/img.png](https://user-images.githubusercontent.com/59581554/232436507-0fc20437-0a68-4013-883f-4418668080e0.png))
 For choosing the algorithm to build the submodels that construct the ACU, we tried to give a theoretical motivation for choosing algorithms that will produce models with good uncertainty calibration. The proofs are in appendices A and B.<br />
 <br />
 PDF file of the thesis table of contents:<br />
